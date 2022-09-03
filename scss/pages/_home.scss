@@ -1,0 +1,24 @@
+.home-bgImg_container {
+  @include bgImage(100vh, "../../img/pexels-cottonbro-5138181.jpg");
+}
+
+.home {
+  //   border: 2px solid red;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  &__name {
+    font-size: 5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid wheat;
+
+    &--last {
+      color: rgb(17, 139, 108);
+      font-weight: 700;
+    }
+  }
+}
