@@ -1,6 +1,6 @@
 .about-bgImg-container {
   //   border: 2px solid red;
-  @include bgImage(50vh, "../../img/pexels-cottonbro-5138181.jpg");
+  @include bgImage(50vh, url("../../img/pexels-cottonbro-5138181.jpg"));
   display: flex;
   justify-content: space-between;
   flex-direction: column;
