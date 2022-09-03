@@ -30,11 +30,11 @@
   color: rgb(180, 64, 64);
 }
 
-.link-style a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
   color: cadetblue;
 }
 
@@ -65,6 +65,16 @@ footer.vertical .copyright {
   right: 3rem;
   writing-mode: vertical-lr;
   text-orientation: mixed;
+}
+
+footer.middle {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .about-bgImg-container {
@@ -106,6 +116,43 @@ footer.vertical .copyright {
 }
 .about .about__job h6 {
   margin: 0.3rem 0;
+}
+
+.contact-bgImg-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/pexels-cottonbro-5138181.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.contact-bgImg-container nav {
+  height: 40vh;
+}
+
+.contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.text-secondary {
+  color: cadetblue;
 }
 
 .home-bgImg_container {
