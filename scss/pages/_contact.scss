@@ -1,5 +1,5 @@
 .contact-bgImg-container {
-  @include bgImage(100vh, url("../../img/pexels-cottonbro-5138181.jpg"));
+  @include bgImage(100vh, $main-bgImage-path);
 
   nav {
     height: 40vh;

@@ -1,5 +1,5 @@
 .home-bgImg_container {
-  @include bgImage(100vh, url("../../img/pexels-cottonbro-5138181.jpg"));
+  @include bgImage(100vh, $main-bgImage-path);
 }
 
 .home {
