@@ -17,10 +17,10 @@
     font-family: $font-family;
     @include transition(1s);
     &:hover {
-      color: blue;
+      color: cadetblue;
     }
     &--active {
-      color: $secondary-color;
+      color: rgb(180, 64, 64);
     }
   }
 }
