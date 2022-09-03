@@ -80,7 +80,7 @@ footer.middle {
 .about-bgImg-container {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/pexels-cottonbro-5138181.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/pexels-cottonbro-5138181.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -121,7 +121,7 @@ footer.middle {
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/pexels-cottonbro-5138181.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/pexels-cottonbro-5138181.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -158,7 +158,7 @@ footer.middle {
 .home-bgImg_container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/pexels-cottonbro-5138181.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/pexels-cottonbro-5138181.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -184,7 +184,7 @@ footer.middle {
 .project-bgImg-container {
   height: 40vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/pexels-cottonbro-5138181.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../img/pexels-cottonbro-5138181.jpg");
   background-position: center center;
   background-size: cover;
   display: flex;
