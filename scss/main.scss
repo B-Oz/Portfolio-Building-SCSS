@@ -2,7 +2,7 @@
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 @import "./components/nav";
-@import "./components/responsive";
+
 @import "./components/footer";
 @import "./pages/about";
 @import "./pages/contact";
@@ -10,6 +10,8 @@
 @import "./pages/projects";
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+@import "./components/responsive";
 
 body {
   font-family: $font-family;
